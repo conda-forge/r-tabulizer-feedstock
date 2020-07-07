@@ -5,7 +5,7 @@ Home: https://github.com/ropensci/tabulizer
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Bindings for the 'Tabula' <http://tabula.technology/> 'Java' library, which can extract tables from PDF documents. The 'tabulizerjars' package <https://github.com/ropensci/tabulizerjars> provides versioned 'Java' .jar files, including all dependencies, aligned to releases of 'Tabula'.
 

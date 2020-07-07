@@ -14,7 +14,7 @@ source:
   sha256: 71973a9b77fda698ece4dead6c7c5817d1bf3bd3f1ef1a386438c7c7b163a57d
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   script: R CMD INSTALL --build .
   merge_build_host: True  # [win]
@@ -24,7 +24,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip  # [win]
+    - {{ posix }}zip  # [win]
   host:
     - r-base
     - r-png
